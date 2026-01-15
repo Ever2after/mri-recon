@@ -14,13 +14,16 @@ pip install -r requirements.txt
 ```
 mri-recon/
 │
-├── data/
+├── dataset/      # locate your mri dataset here
 │   ├── train/
 │   │   ├── *.nii.gz
 │   │   └── ...
 │   └── test/
 │       ├── *.nii.gz
 │       └── ...
+│
+├── data/
+│   └── utils.py
 │
 ├── models/
 │   └── autoencoder.py 
